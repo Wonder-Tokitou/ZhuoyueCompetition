@@ -1,0 +1,648 @@
+{
+  "title": "研咖咖啡·高校市场扩张与定价决策",
+  "case_type": "市场营销类",
+  "framework": "4P营销理论",
+  "background": "研咖是一家创立三年的高校校园咖啡连锁品牌，主营业务为校园咖啡饮品销售，目前已在三所高校开设五家门店，单店月均营收约12万元，毛利率约62%，单店月净利润约3万元，整体经营状况良好。品牌定位为面向在校大学生与教师的平价精品咖啡，主打高性价比与便捷的校园场景体验。\n当前目标校区咖啡市场总规模约每月600万元，研咖市场占有率约20%，位居区域第一。近期，新进入的连锁品牌校咖以低价策略快速抢占市场，另有两家个体咖啡店分流客源，校园咖啡市场竞争明显加剧。",
+  "dilemma": "研咖品牌目前面临三大核心经营困境：一是现有五家门店单店营收增长停滞，复购增长乏力；二是竞品校咖以低价策略进入，开始分流价格敏感型客群；三是品牌知名度局限于现有三所高校，跨校区品牌影响力不足。\n管理层需要在市场扩张、定价与产品、营销推广三个层面作出关键决策：是深耕现有市场提升单店盈利，还是加快扩张抢占其他高校市场；是维持平价定位，还是通过产品升级与价格调整提升品牌价值；营销投入应控制在什么水平才能实现最优的投入产出。",
+  "source_results": {
+    "base_metrics": {
+      "caption": "表2 案例初始基准数据",
+      "header": [
+        "指标",
+        "数值",
+        "说明"
+      ],
+      "rows": [
+        [
+          "门店数量",
+          "5家",
+          "分布于3所高校"
+        ],
+        [
+          "单店月营收",
+          "12万元",
+          "含饮品与轻食销售"
+        ],
+        [
+          "毛利率",
+          "62%",
+          "毛利率=（营收－营业成本）÷营收"
+        ],
+        [
+          "单店月运营费用",
+          "4.4万元",
+          "房租、人工、水电等固定与变动费用"
+        ],
+        [
+          "单店月净利润",
+          "约3.0万元",
+          "净利润=营收－营业成本－运营费用"
+        ],
+        [
+          "目标市场月总规模",
+          "约600万元",
+          "目标校区咖啡市场"
+        ],
+        [
+          "市场占有率",
+          "约20%",
+          "企业营收÷目标市场总规模"
+        ],
+        [
+          "核心产品价格",
+          "美式12元/杯",
+          "主打产品基准价格"
+        ]
+      ]
+    },
+    "node_results": [
+      {
+        "caption": "表6 决策节点一财务结果测算",
+        "header": [
+          "选项",
+          "门店数",
+          "单店月营收",
+          "毛利率",
+          "现金流表现",
+          "市场占有率"
+        ],
+        "rows": [
+          [
+            "A保守",
+            "5家",
+            "13万元",
+            "63%",
+            "稳健改善",
+            "约20%"
+          ],
+          [
+            "B稳健",
+            "7家",
+            "12.6万元",
+            "62.5%",
+            "短期流出（开店投入约30万元）",
+            "约26%"
+          ],
+          [
+            "C激进",
+            "10家",
+            "10.5万元",
+            "60%",
+            "大幅流出（开店投入约75万元）",
+            "约35%"
+          ]
+        ]
+      },
+      {
+        "caption": "表7 决策节点二财务结果测算",
+        "header": [
+          "选项",
+          "客单价",
+          "单店月营收",
+          "毛利率",
+          "市场占有率",
+          "说明"
+        ],
+        "rows": [
+          [
+            "A保守",
+            "12元",
+            "12万元",
+            "62%",
+            "约20%",
+            "经营平稳，增长有限"
+          ],
+          [
+            "B稳健",
+            "13.5元",
+            "14万元",
+            "64%",
+            "约22%",
+            "价格带上移，销量稳中有升"
+          ],
+          [
+            "C激进",
+            "14元",
+            "11万元",
+            "68%",
+            "约19%",
+            "销量下降约18%，部分价格敏感客群流失"
+          ]
+        ]
+      },
+      {
+        "caption": "表8 决策节点三财务结果测算",
+        "header": [
+          "选项",
+          "营销费用率",
+          "单店月营收",
+          "毛利率",
+          "市场占有率",
+          "说明"
+        ],
+        "rows": [
+          [
+            "A保守",
+            "5%",
+            "12.5万元",
+            "62%",
+            "约20%",
+            "利润率较高，增长缓慢"
+          ],
+          [
+            "B稳健",
+            "10%",
+            "14.5万元",
+            "63.5%",
+            "约22%",
+            "投入产出比良好，品牌认知提升"
+          ],
+          [
+            "C激进",
+            "20%",
+            "15万元",
+            "61%",
+            "约24%",
+            "营收冲高但费用侵蚀利润，存在亏损风险"
+          ]
+        ]
+      }
+    ],
+    "standard_path_result": {
+      "caption": "表9 标准决策路径最终结果",
+      "header": [
+        "指标",
+        "标准路径结果",
+        "较基准变化"
+      ],
+      "rows": [
+        [
+          "门店数量",
+          "7家",
+          "+2家"
+        ],
+        [
+          "单店月营收",
+          "14.5万元",
+          "+2.5万元"
+        ],
+        [
+          "客单价",
+          "13.5元",
+          "+1.5元"
+        ],
+        [
+          "毛利率",
+          "64%",
+          "+2个百分点"
+        ],
+        [
+          "营销费用率",
+          "10%",
+          "符合行业常规区间"
+        ],
+        [
+          "单店月净利润",
+          "约3.3万元",
+          "+0.3万元"
+        ],
+        [
+          "市场占有率",
+          "约28%",
+          "+8个百分点"
+        ]
+      ]
+    }
+  },
+  "base_metrics": {
+    "store_count": 5,
+    "monthly_revenue_per_store": 12,
+    "gross_margin": "62.0%",
+    "monthly_opex_per_store": 4.4,
+    "monthly_net_profit_per_store": 3.0,
+    "target_market_monthly_size": 600,
+    "market_share": "20.0%",
+    "core_product_price": "美式12元/杯",
+    "amount_unit": "万元"
+  },
+  "nodes": [
+    {
+      "node_role": "核心战略",
+      "title": "市场扩张策略",
+      "background": "是深耕现有市场提升单店盈利，还是加快扩张抢占其他高校市场",
+      "options": [
+        {
+          "option_key": "A",
+          "risk_level": "保守",
+          "label": "深耕现有校区，暂不扩张，聚焦提升单店复购率与运营效率"
+        },
+        {
+          "option_key": "B",
+          "risk_level": "稳健",
+          "label": "拓展1所新高校，开设2家新店，稳步扩大品牌覆盖"
+        },
+        {
+          "option_key": "C",
+          "risk_level": "激进",
+          "label": "半年内同时进入3所新高校，开设5家新店，快速抢占市场"
+        }
+      ]
+    },
+    {
+      "node_role": "核心策略",
+      "title": "定价与产品策略",
+      "background": "是维持平价定位，还是通过产品升级与价格调整提升品牌价值",
+      "options": [
+        {
+          "option_key": "A",
+          "risk_level": "保守",
+          "label": "维持现有定价体系（美式12元/杯），小幅优化产品与控制成本"
+        },
+        {
+          "option_key": "B",
+          "risk_level": "稳健",
+          "label": "推出12—18元中端新品系列，升级核心产品品质，保持价格竞争力"
+        },
+        {
+          "option_key": "C",
+          "risk_level": "激进",
+          "label": "全线提价10%—15%，定位高端精品咖啡，强化品牌溢价"
+        }
+      ]
+    },
+    {
+      "node_role": "落地执行",
+      "title": "营销推广策略",
+      "background": "营销投入应控制在什么水平才能实现最优的投入产出",
+      "options": [
+        {
+          "option_key": "A",
+          "risk_level": "保守",
+          "label": "以口碑营销为主，依靠学生自发传播与会员复购，营销预算占营收5%"
+        },
+        {
+          "option_key": "B",
+          "risk_level": "稳健",
+          "label": "校园活动赞助、社交媒体种草与会员优惠组合推广，营销预算占营收10%"
+        },
+        {
+          "option_key": "C",
+          "risk_level": "激进",
+          "label": "大规模广告投放与高频促销补贴，营销预算占营收20%"
+        }
+      ]
+    }
+  ],
+  "financial_results": [
+    {
+      "node_index": 1,
+      "option_key": "A",
+      "metrics": {
+        "store_count": 5,
+        "monthly_revenue": 13,
+        "gross_margin": "63.0%",
+        "market_share": "20.0%"
+      }
+    },
+    {
+      "node_index": 1,
+      "option_key": "B",
+      "metrics": {
+        "store_count": 7,
+        "monthly_revenue": 12.6,
+        "gross_margin": "62.5%",
+        "market_share": "26.0%"
+      }
+    },
+    {
+      "node_index": 1,
+      "option_key": "C",
+      "metrics": {
+        "store_count": 10,
+        "monthly_revenue": 10.5,
+        "gross_margin": "60.0%",
+        "market_share": "35.0%"
+      }
+    },
+    {
+      "node_index": 2,
+      "option_key": "A",
+      "metrics": {
+        "avg_price": "12元",
+        "monthly_revenue": 12,
+        "gross_margin": "62.0%",
+        "market_share": "20.0%"
+      }
+    },
+    {
+      "node_index": 2,
+      "option_key": "B",
+      "metrics": {
+        "avg_price": "13.5元",
+        "monthly_revenue": 14,
+        "gross_margin": "64.0%",
+        "market_share": "22.0%"
+      }
+    },
+    {
+      "node_index": 2,
+      "option_key": "C",
+      "metrics": {
+        "avg_price": "14元",
+        "monthly_revenue": 11,
+        "gross_margin": "68.0%",
+        "market_share": "19.0%"
+      }
+    },
+    {
+      "node_index": 3,
+      "option_key": "A",
+      "metrics": {
+        "marketing_expense_ratio": "5.0%",
+        "monthly_revenue": 12.5,
+        "gross_margin": "62.0%",
+        "market_share": "20.0%"
+      }
+    },
+    {
+      "node_index": 3,
+      "option_key": "B",
+      "metrics": {
+        "marketing_expense_ratio": "10.0%",
+        "monthly_revenue": 14.5,
+        "gross_margin": "63.5%",
+        "market_share": "22.0%"
+      }
+    },
+    {
+      "node_index": 3,
+      "option_key": "C",
+      "metrics": {
+        "marketing_expense_ratio": "20.0%",
+        "monthly_revenue": 15,
+        "gross_margin": "61.0%",
+        "market_share": "24.0%"
+      }
+    }
+  ],
+  "standard_path": "B-B-B",
+  "standard_review": {
+    "framework_type": "4P营销理论",
+    "dimensions": [
+      {
+        "name": "产品（Product）",
+        "content": "决策推出12—18元中端新品系列，产品线从单一基础款拓展为覆盖不同消费层次的组合矩阵，核心产品同步升级，品质感知明显提升，产品策略合理。"
+      },
+      {
+        "name": "价格（Price）",
+        "content": "客单价从12元提升至13.5元，毛利率从62%升至64%，在保持价格竞争力的同时实现盈利提升；未采取激进提价策略，避免价格敏感型客群流失，定价与产品升级形成有效联动。"
+      },
+      {
+        "name": "渠道（Place）",
+        "content": "门店从5家稳步增至7家，渠道覆盖扩大至新校区，形成区域网络效应，品牌可见度提升；扩张节奏稳健，有效规避了激进扩张带来的现金流风险。"
+      },
+      {
+        "name": "促销（Promotion）",
+        "content": "采用校园赞助、社交媒体种草与会员优惠的组合营销，精准触达目标学生群体，营销费用率控制在10%的行业常规区间，投入产出比良好，品牌认知度显著提升。"
+      },
+      {
+        "name": "综合结论",
+        "content": "该组合策略稳中求进，实现营收、毛利率、市场占有率同步提升，兼顾扩张速度与盈利质量，整体风险可控，符合校园咖啡市场当前发展阶段，为后续持续扩张奠定了良好基础。"
+      }
+    ],
+    "conclusion": "该组合策略稳中求进，实现营收、毛利率、市场占有率同步提升，兼顾扩张速度与盈利质量，整体风险可控，符合校园咖啡市场当前发展阶段，为后续持续扩张奠定了良好基础。",
+    "source": "docs/source/标杆案例…docx §8 标准复盘报告（原文五项）",
+    "verbatim": true,
+    "conclusion_role": "compatibility_alias_of_dimensions_last_item"
+  },
+  "simulation_results": [
+    {
+      "node_index": 1,
+      "option_key": "A",
+      "risk_level": "保守",
+      "label": "深耕现有校区，暂不扩张，聚焦提升单店复购率与运营效率",
+      "summary": "技术侧摘要：门店数不变，单店月营收 13 万元、毛利率 63%，现金流稳健改善。",
+      "summary_source": "derived_by_technical_side",
+      "metrics": {
+        "revenue": 13.0,
+        "gross_margin": "63.0%",
+        "market_share": "20.0%",
+        "cash_flow": "稳健改善"
+      },
+      "metric_source": {
+        "revenue": "original",
+        "gross_margin": "original",
+        "market_share": "original",
+        "cash_flow": "original"
+      },
+      "source_status": "original"
+    },
+    {
+      "node_index": 1,
+      "option_key": "B",
+      "risk_level": "稳健",
+      "label": "拓展1所新高校，开设2家新店，稳步扩大品牌覆盖",
+      "summary": "技术侧摘要：门店增至 7 家，单店月营收 12.6 万元、毛利率 62.5%，开店投入约 30 万元。",
+      "summary_source": "derived_by_technical_side",
+      "metrics": {
+        "revenue": 12.6,
+        "gross_margin": "62.5%",
+        "market_share": "26.0%",
+        "cash_flow": "短期流出（开店投入约30万元）"
+      },
+      "metric_source": {
+        "revenue": "original",
+        "gross_margin": "original",
+        "market_share": "original",
+        "cash_flow": "original"
+      },
+      "source_status": "original"
+    },
+    {
+      "node_index": 1,
+      "option_key": "C",
+      "risk_level": "激进",
+      "label": "半年内同时进入3所新高校，开设5家新店，快速抢占市场",
+      "summary": "技术侧摘要：门店增至 10 家，单店月营收 10.5 万元、毛利率 60%，开店投入约 75 万元。",
+      "summary_source": "derived_by_technical_side",
+      "metrics": {
+        "revenue": 10.5,
+        "gross_margin": "60.0%",
+        "market_share": "35.0%",
+        "cash_flow": "大幅流出（开店投入约75万元）"
+      },
+      "metric_source": {
+        "revenue": "original",
+        "gross_margin": "original",
+        "market_share": "original",
+        "cash_flow": "original"
+      },
+      "source_status": "original"
+    },
+    {
+      "node_index": 2,
+      "option_key": "A",
+      "risk_level": "保守",
+      "label": "维持现有定价体系（美式12元/杯），小幅优化产品与控制成本",
+      "summary": "经营平稳，增长有限",
+      "summary_source": "original",
+      "metrics": {
+        "revenue": 12.0,
+        "gross_margin": "62.0%",
+        "market_share": "20.0%",
+        "cash_flow": "改善"
+      },
+      "metric_source": {
+        "revenue": "original",
+        "gross_margin": "original",
+        "market_share": "original",
+        "cash_flow": "derived_from_transmission_rule"
+      },
+      "source_status": "derived_from_transmission_rule"
+    },
+    {
+      "node_index": 2,
+      "option_key": "B",
+      "risk_level": "稳健",
+      "label": "推出12—18元中端新品系列，升级核心产品品质，保持价格竞争力",
+      "summary": "价格带上移，销量稳中有升",
+      "summary_source": "original",
+      "metrics": {
+        "revenue": 14.0,
+        "gross_margin": "64.0%",
+        "market_share": "22.0%",
+        "cash_flow": "短期收紧"
+      },
+      "metric_source": {
+        "revenue": "original",
+        "gross_margin": "original",
+        "market_share": "original",
+        "cash_flow": "derived_from_transmission_rule"
+      },
+      "source_status": "derived_from_transmission_rule"
+    },
+    {
+      "node_index": 2,
+      "option_key": "C",
+      "risk_level": "激进",
+      "label": "全线提价10%—15%，定位高端精品咖啡，强化品牌溢价",
+      "summary": "销量下降约18%，部分价格敏感客群流失",
+      "summary_source": "original",
+      "metrics": {
+        "revenue": 11.0,
+        "gross_margin": "68.0%",
+        "market_share": "19.0%",
+        "cash_flow": "短期收紧"
+      },
+      "metric_source": {
+        "revenue": "original",
+        "gross_margin": "original",
+        "market_share": "original",
+        "cash_flow": "derived_from_transmission_rule"
+      },
+      "source_status": "derived_from_transmission_rule"
+    },
+    {
+      "node_index": 3,
+      "option_key": "A",
+      "risk_level": "保守",
+      "label": "以口碑营销为主，依靠学生自发传播与会员复购，营销预算占营收5%",
+      "summary": "利润率较高，增长缓慢",
+      "summary_source": "original",
+      "metrics": {
+        "revenue": 12.5,
+        "gross_margin": "62.0%",
+        "market_share": "20.0%",
+        "cash_flow": "短期流出增加"
+      },
+      "metric_source": {
+        "revenue": "original",
+        "gross_margin": "original",
+        "market_share": "original",
+        "cash_flow": "derived_from_transmission_rule"
+      },
+      "source_status": "derived_from_transmission_rule"
+    },
+    {
+      "node_index": 3,
+      "option_key": "B",
+      "risk_level": "稳健",
+      "label": "校园活动赞助、社交媒体种草与会员优惠组合推广，营销预算占营收10%",
+      "summary": "投入产出比良好，品牌认知提升",
+      "summary_source": "original",
+      "metrics": {
+        "revenue": 14.5,
+        "gross_margin": "63.5%",
+        "market_share": "22.0%",
+        "cash_flow": "短期流出增加"
+      },
+      "metric_source": {
+        "revenue": "original",
+        "gross_margin": "original",
+        "market_share": "original",
+        "cash_flow": "derived_from_transmission_rule"
+      },
+      "source_status": "derived_from_transmission_rule"
+    },
+    {
+      "node_index": 3,
+      "option_key": "C",
+      "risk_level": "激进",
+      "label": "大规模广告投放与高频促销补贴，营销预算占营收20%",
+      "summary": "营收冲高但费用侵蚀利润，存在亏损风险",
+      "summary_source": "original",
+      "metrics": {
+        "revenue": 15.0,
+        "gross_margin": "61.0%",
+        "market_share": "24.0%",
+        "cash_flow": "短期流出增加"
+      },
+      "metric_source": {
+        "revenue": "original",
+        "gross_margin": "original",
+        "market_share": "original",
+        "cash_flow": "derived_from_transmission_rule"
+      },
+      "source_status": "derived_from_transmission_rule"
+    }
+  ],
+  "standard_final_metrics": {
+    "metrics": {
+      "revenue": 14.5,
+      "gross_margin": "64.0%",
+      "market_share": "28.0%",
+      "cash_flow": "短期大幅流出"
+    },
+    "metric_source": {
+      "revenue": "original",
+      "gross_margin": "original",
+      "market_share": "original",
+      "cash_flow": "derived_from_transmission_rule"
+    },
+    "source_status": "derived_from_transmission_rule",
+    "cash_flow_derivation": "渠道扩张（标准路径第 1 节点 B，开店投入是最大的一笔现金流出）",
+    "extra_metrics": {
+      "store_count": 7,
+      "avg_price": "13.5元",
+      "marketing_expense_ratio": "10.0%",
+      "monthly_net_profit": 3.3
+    }
+  },
+  "standard_path_reasons": [
+    {
+      "node_index": 1,
+      "option_key": "B",
+      "reason": "决策节点一选B：校园咖啡市场仍处于增长期，扩张时机合理，但需控制节奏避免现金流风险；拓展1所高校开设2家新店的规模适中，可验证跨校区运营能力，为后续扩张积累经验。"
+    },
+    {
+      "node_index": 2,
+      "option_key": "B",
+      "reason": "决策节点二选B：推出12—18元中端新品可覆盖更广客群，拓宽价格带并提升客单价，毛利率提升约2个百分点；未采取激进提价，避免流失价格敏感型学生客群，兼顾竞争力与盈利。"
+    },
+    {
+      "node_index": 3,
+      "option_key": "B",
+      "reason": "决策节点三选B：10%的营销费用率符合校园餐饮行业常规水平，组合营销（校园赞助、社交媒体种草、会员优惠）能精准触达目标学生群体，投入产出比最优；相比激进投放，风险显著更低。"
+    }
+  ]
+}

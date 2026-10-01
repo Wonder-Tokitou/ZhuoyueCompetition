@@ -1,0 +1,206 @@
+{
+  "case_types": [
+    {
+      "case_type": "战略决策类",
+      "framework": "SWOT分析模型",
+      "core_dimensions": "优势、劣势、机会、威胁"
+    },
+    {
+      "case_type": "市场营销类",
+      "framework": "4P营销理论",
+      "core_dimensions": "产品、价格、渠道、促销"
+    },
+    {
+      "case_type": "财务管理类",
+      "framework": "盈亏平衡分析",
+      "core_dimensions": "成本、销量、单价、利润"
+    }
+  ],
+  "industry_baseline": [
+    {
+      "industry": "校园餐饮/零售",
+      "gross_margin_range": "55%—70%",
+      "revenue_scale": "单店月营收8万—20万元",
+      "expense_ratio": "市场费用占营收8%—15%"
+    },
+    {
+      "industry": "制造类行业",
+      "gross_margin_range": "20%—35%",
+      "revenue_scale": "年增速10%—25%",
+      "expense_ratio": "研发费用占营收3%—8%"
+    }
+  ],
+  "transmission_rules": [
+    {
+      "decision_type": "高价策略",
+      "revenue": "短期下降，长期平稳",
+      "gross_margin": "上升",
+      "market_share": "小幅下降",
+      "cash_flow": "短期收紧"
+    },
+    {
+      "decision_type": "低价策略",
+      "revenue": "短期上升",
+      "gross_margin": "下降",
+      "market_share": "上升",
+      "cash_flow": "短期流出增加"
+    },
+    {
+      "decision_type": "渠道扩张",
+      "revenue": "中期上升",
+      "gross_margin": "小幅下降",
+      "market_share": "上升",
+      "cash_flow": "短期大幅流出"
+    },
+    {
+      "decision_type": "加大营销投入",
+      "revenue": "短期上升",
+      "gross_margin": "小幅下降",
+      "market_share": "上升",
+      "cash_flow": "短期流出增加"
+    },
+    {
+      "decision_type": "成本控制",
+      "revenue": "影响小",
+      "gross_margin": "上升",
+      "market_share": "影响小",
+      "cash_flow": "改善"
+    }
+  ],
+  "review_templates": [
+    {
+      "template": "SWOT分析模型",
+      "conclusion_name": "综合结论",
+      "dimensions": [
+        "优势（S）",
+        "劣势（W）",
+        "机会（O）",
+        "威胁（T）",
+        "综合结论"
+      ]
+    },
+    {
+      "template": "4P营销理论",
+      "conclusion_name": "综合结论",
+      "dimensions": [
+        "产品（Product）",
+        "价格（Price）",
+        "渠道（Place）",
+        "促销（Promotion）",
+        "综合结论"
+      ]
+    },
+    {
+      "template": "盈亏平衡分析",
+      "conclusion_name": "综合结论",
+      "dimensions": [
+        "成本端",
+        "销量端",
+        "盈利端",
+        "综合结论"
+      ]
+    }
+  ],
+  "metric_formulas": [
+    {
+      "metric": "毛利率",
+      "formula": "（营收－营业成本）÷营收",
+      "note": "衡量单位收入的盈利水平",
+      "unit": "百分比，保留一位小数"
+    },
+    {
+      "metric": "净利润",
+      "formula": "营收－营业成本－运营费用",
+      "note": "综合经营成果",
+      "unit": "万元"
+    },
+    {
+      "metric": "市场份额",
+      "formula": "企业营收÷目标市场总规模",
+      "note": "衡量市场地位",
+      "unit": "百分比，保留一位小数"
+    }
+  ],
+  "metric_formulas_unit_basis": "unit 取自商科规范 §3.4「百分比保留一位小数」「金额单位统一为万元」；原文公式表内未标注单位（技术侧拼装，已在 商科待确认项.md 登记）",
+  "common_constraints": [
+    {
+      "key": "language",
+      "rule": "系统全部内容默认使用简体中文输出",
+      "source": "商科规范 §3.4"
+    },
+    {
+      "key": "number_format",
+      "rule": "数字一律使用阿拉伯数字",
+      "source": "商科规范 §3.4"
+    },
+    {
+      "key": "amount_unit",
+      "rule": "金额单位统一为万元",
+      "source": "商科规范 §3.4"
+    },
+    {
+      "key": "percentage_format",
+      "rule": "百分比保留一位小数",
+      "source": "商科规范 §3.4"
+    },
+    {
+      "key": "terminology",
+      "rule": "统一使用标准商科术语，禁止口语化、网络化表述",
+      "source": "商科规范 §3.2"
+    },
+    {
+      "key": "no_fabrication",
+      "rule": "所有分析与推演仅围绕案例给定的企业背景与行业环境展开，禁止无依据的发散与脑补；AI不得自行引入案例未提及的竞争对手、政策或数据",
+      "source": "商科规范 §3.3"
+    }
+  ],
+  "input_formats": [
+    {
+      "format": "Word",
+      "rule": "完整的教学案例文档（Word、PDF）",
+      "source": "商科规范 §4.1"
+    },
+    {
+      "format": "PDF",
+      "rule": "完整的教学案例文档（Word、PDF）",
+      "source": "商科规范 §4.1"
+    },
+    {
+      "format": "财报片段",
+      "rule": "企业财报片段加经营事件描述",
+      "source": "商科规范 §4.1"
+    },
+    {
+      "format": "新闻与行业分析文章",
+      "rule": "商业新闻与行业分析文章",
+      "source": "商科规范 §4.1"
+    },
+    {
+      "format": "主题关键词",
+      "rule": "极简主题关键词（如校园咖啡店定价决策）",
+      "source": "商科规范 §4.1"
+    },
+    {
+      "format": "纯文本",
+      "rule": "纯文本素材（系统实现对齐：T2 接受 .txt/.md 直读）",
+      "source": "系统实现，非商科原文"
+    }
+  ],
+  "material_requirements": [
+    {
+      "key": "enterprise_background",
+      "rule": "企业基本背景，即所属行业、核心业务、当前经营现状",
+      "source": "商科规范 §4.1"
+    },
+    {
+      "key": "core_decision",
+      "rule": "核心决策问题，即企业面临的具体选择困境",
+      "source": "商科规范 §4.1"
+    },
+    {
+      "key": "baseline_data",
+      "rule": "基础经营基准数据，即当前营收、成本、市场份额等",
+      "source": "商科规范 §4.1"
+    }
+  ]
+}

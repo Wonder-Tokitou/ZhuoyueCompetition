@@ -1,0 +1,8 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),ts=require('typescript'),path=require('node:path')
+const exportsValue={}
+vm.runInNewContext(ts.transpileModule(fs.readFileSync(path.join(__dirname,'../src/pages/teacher/components/baselineFinance.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,{exports:exportsValue})
+const {linkedBaseline,baselineError}=exportsValue
+test('revenue keeps margin and recalculates cost',()=>{assert.equal(linkedBaseline(200,'20%',80,'margin').cost,160);assert.equal(baselineError(200,'20%',160),null)})
+test('revenue keeps cost with enough margin precision for large amounts',()=>{for(const revenue of [200,60000000,61234567.89]){const r=linkedBaseline(revenue,'20%',80,'cost');assert.equal(r.cost,80);assert.equal(baselineError(revenue,r.margin,r.cost),null)}})
+test('invalid and zero inputs cannot fabricate a margin',()=>{assert.equal(linkedBaseline(0,'20%',80,'cost'),null);assert.equal(linkedBaseline(50,'20%',80,'cost'),null);assert.equal(linkedBaseline(null,'20%',80,'margin'),null);assert.ok(baselineError(200,'20%',80).includes('160.00'));assert.equal(baselineError(0,'20%',0),null)})
+test('save validates baseline before request and only baseline handler uses linking',()=>{const s=fs.readFileSync(path.join(__dirname,'../src/pages/teacher/components/CalibratePanel.tsx'),'utf8');assert.ok(s.indexOf('const inconsistency = baselineError')<s.indexOf('await patchCase'));assert.ok(s.includes('linkedBaseline(revenue, metrics.gross_margin, operatingCost, revenueLink)'))})

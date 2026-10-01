@@ -1,0 +1,124 @@
+/* 学生端（移动优先）布局样式 */
+
+/* body 限宽 480px 并居中：手机上呈现 App 观感，桌面上居中不铺满 */
+body.student-body {
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow-x: hidden; /* 768px 以下绝不出现横向滚动条 */
+  background-color: #fff;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.05);
+}
+
+.student-shell {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+/* 顶部只显示案例标题，无导航、无侧边栏 */
+.student-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  padding: 12px 16px;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.student-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.student-main {
+  padding: 16px;
+  background-color: #fff;
+  word-break: break-word;
+}
+
+/* 触控目标最小高度 44px：antd 默认按钮 32px，这里统一抬到 44px */
+body.student-body .ant-btn,
+body.student-body .tap-target {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.student-body .ant-btn-block {
+  width: 100%;
+}
+
+body.student-body .ant-btn + .ant-btn {
+  margin-inline-start: 0;
+}
+
+.tap-target {
+  padding: 12px 16px;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+/* 防子元素撑破容器导致横向滚动 */
+body.student-body img,
+body.student-body table {
+  max-width: 100%;
+}
+
+.student-page-title {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.student-hint {
+  margin: 0 0 16px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.student-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.student-token {
+  margin: 20px 0 0;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.student-metrics {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 10px 0;
+  white-space: nowrap;
+  border-top: 1px solid #f0f0f0;
+}
+.student-metrics span { flex: 0 0 auto; }
+.strategy-option.ant-btn { height: auto; white-space: normal; text-align: left; padding: 12px; line-height: 1.6; }
+.strategy-option.ant-btn[aria-pressed="true"],
+.strategy-option.ant-btn[aria-pressed="true"]:disabled { color: #fff; background: #0958d9; border: 2px solid #003eb3; }
+.strategy-option.ant-btn:focus-visible { outline: 3px solid #69b1ff; outline-offset: 2px; }
+.strategy-option.ant-btn > span { min-width: 0; overflow-wrap: anywhere; }
+.student-header { display: flex; align-items: center; gap: 12px; }
+.student-title { flex: 1; }
+.student-main { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 20px; }
+.student-page { min-width: 0; }
+.student-tutor { min-width: 0; position: sticky; top: 80px; align-self: start; }
+.tutor-messages { max-height: 42vh; overflow-y: auto; overflow-wrap: anywhere; }
+@media (max-width: 800px) {
+  .student-main { grid-template-columns: minmax(0, 1fr); }
+  .student-tutor { position: static; }
+  .student-header { flex-wrap: wrap; }
+}
